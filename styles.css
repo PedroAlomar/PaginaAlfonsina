@@ -1,0 +1,16 @@
+.hero{
+    height: 650px;
+    width: 100%;
+    background-color: #012208;
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden; 
+    align-content: center;
+}
+.textos-hero{
+    height: 500px;
+}
+
