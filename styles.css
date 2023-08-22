@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+}
+
 .hero{
     height: 650px;
     width: 100%;
@@ -9,8 +13,34 @@
     position: relative;
     overflow: hidden; 
     align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.textos-hero{
-    height: 500px;
+.hero h1{
+    font-size: 30px;
+    color: white;
 }
 
+.hero a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.aa{
+    height: 650px;
+    background-color: white;
+    display: flex;
+}
+
+.b{
+    height: 650px;
+    background-color: #012208;
+}
+
+.c{
+    height: 650px;
+    background-color: black;
+}
